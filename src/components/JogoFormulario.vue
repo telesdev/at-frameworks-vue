@@ -23,68 +23,7 @@ export default {
     },
     emits: ['registrou']
 }
-// export default {
-//     date() {
-//         return {
-//             value: '',
-//             selected: ''
-//         }
-//     },
-//     name : 'JogoFormulario',
-//     components: { FormularioCampo },
-//     props: {
-//         jogos: Array,
-//         jogo: Object
-//     },
-//     methods: {
-//         cadastrar() {
-//             let jogoForm = {
-                
-//                 nome: this.jogo.nome,
-//                 genero: this.jogo.genero,
-//                 alugado: false,
-//                 dataLancamento: this.jogo.dataLancamento,
-//                 descricao: this.jogo.descricao
-//             }
-//             this.$store.commit('saveJogo', jogoForm)
-//         }
-//     },
-//     computed: {
-//         nome: {
-//             get(){
-//                 return this.$store.state.jogo.nome
-//             },
-//             set(value){
-//                 this.$store.commit('saveNome', value)
-//             }
-//         },
-//         genero: {
-//             get(){
-//                 return this.$store.state.jogo.genero
-//             },
-//             set(value){
-//                 this.$store.commit('saveGenero', value)
-//             }
-//         },
-//         dataLancamento: {
-//             get(){
-//                 return this.$store.state.jogo.dataLancamento
-//             },
-//             set(value){
-//                 this.$store.commit('saveDataLancamento', value)
-//             }
-//         },
-//         descricao: {
-//             get(){
-//                 return this.$store.state.jogo.descricao
-//             },
-//             set(value){
-//                 this.$store.commit('saveDescricao', value)
-//             }
-//         }
-//     },
-//     emits: ['registrou']
-// }
+
 </script>
 
 <style>
